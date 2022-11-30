@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nats-pub", "nats-pub\nats-pub.csproj", "{72B5277D-A50A-4B74-814E-13A9928ADB5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{7DC45652-8DCD-4110-8F8F-821AC286AF58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nats-sub", "nats-sub\nats-sub.csproj", "{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nats-js-pub", "nats-js-pub\nats-js-pub.csproj", "{692A74AD-CC8C-4C5C-A407-9BAA209E939D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "js-utils", "js-utils\js-utils.csproj", "{5064DEC1-E644-4967-A3B9-3F6E436B8843}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "nats-js-subdds", "nats-js-subdds\nats-js-subdds.csproj", "{55CBB780-56C5-412F-B8E6-5B8DAB9F9197}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72B5277D-A50A-4B74-814E-13A9928ADB5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B5277D-A50A-4B74-814E-13A9928ADB5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B5277D-A50A-4B74-814E-13A9928ADB5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B5277D-A50A-4B74-814E-13A9928ADB5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692A74AD-CC8C-4C5C-A407-9BAA209E939D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692A74AD-CC8C-4C5C-A407-9BAA209E939D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692A74AD-CC8C-4C5C-A407-9BAA209E939D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692A74AD-CC8C-4C5C-A407-9BAA209E939D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5064DEC1-E644-4967-A3B9-3F6E436B8843}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5064DEC1-E644-4967-A3B9-3F6E436B8843}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5064DEC1-E644-4967-A3B9-3F6E436B8843}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5064DEC1-E644-4967-A3B9-3F6E436B8843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55CBB780-56C5-412F-B8E6-5B8DAB9F9197}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55CBB780-56C5-412F-B8E6-5B8DAB9F9197}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55CBB780-56C5-412F-B8E6-5B8DAB9F9197}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55CBB780-56C5-412F-B8E6-5B8DAB9F9197}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72B5277D-A50A-4B74-814E-13A9928ADB5F} = {7DC45652-8DCD-4110-8F8F-821AC286AF58}
+		{8A1C5B84-9584-4A23-AB3D-9586B6EC5DC7} = {7DC45652-8DCD-4110-8F8F-821AC286AF58}
+		{692A74AD-CC8C-4C5C-A407-9BAA209E939D} = {7DC45652-8DCD-4110-8F8F-821AC286AF58}
+		{5064DEC1-E644-4967-A3B9-3F6E436B8843} = {7DC45652-8DCD-4110-8F8F-821AC286AF58}
+		{55CBB780-56C5-412F-B8E6-5B8DAB9F9197} = {7DC45652-8DCD-4110-8F8F-821AC286AF58}
+	EndGlobalSection
+EndGlobal
